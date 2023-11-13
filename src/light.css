@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.light {
+    background-color: rgb(246, 2, 2);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.4;
+    transition: all 0.3s;
+}
+.light:hover{
+    opacity: 1;
+    box-shadow: red(0, 128, 255, 0.2) 0px 8px 24px; 
+
+}
+
+.trafficLight{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+padding: 1rem;
+border: 1px solid black;
+width: fit-content;
+margin: auto;
+background-color: black;
+}
+
+.lightHandle{
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+}

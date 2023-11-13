@@ -35,9 +35,9 @@ export default function App() {
         <Light color="yellow" opacity={activeLight==="yellow" ? 1:0.4} />
         <Light color="green" opacity={activeLight==="green" ? 1:0.4}/>
       </div>
-      <button onClick={()=> setIsActive(!isActive)>
+      <button style={{margin: "auto", display: "flex", marginTop: "1rem"}} onClick={()=> setIsActive(!isActive)} >
         Play/Stop
-      </button> }
+      </button> 
       <h1 style={{margin: "auto", width: "fit-content"}}>
         {activeLight}
       </h1>
